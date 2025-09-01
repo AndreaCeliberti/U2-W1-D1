@@ -237,4 +237,38 @@ footer a {
 
 /* media query desktop */
 @media screen and (min-width: 1200px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 1em;
+  }
+  header div {
+    display: flex;
+    align-items: center;
+  }
+  header nav {
+    display: inline;
+    margin-right: 2rem;
+  }
+  header div img {
+    margin-bottom: 0px;
+  }
+  header div p {
+    margin-block: auto;
+  }
+  .videoLetter {
+    display: flex;
+    height: 25rem;
+  }
+  .videoLetter iframe {
+    width: 70%;
+  }
+  section {
+    border-radius: 20px;
+  }
+  aside div {
+    width: 33%;
+    display: inline-block;
+  }
 }
