@@ -193,7 +193,7 @@ footer {
 footer a {
   color: fuchsia;
 }
-/* media query mobile */
+/* media query mobile from 576 px (to see the difference whit starting css) */
 @media screen and (min-width: 575px) {
   header {
     font-size: 1.6em;
@@ -218,9 +218,23 @@ footer a {
   }
 }
 
-/* media query medium */
+/* media query medium from 768px */
 @media screen and (min-width: 768px) {
+  table {
+    margin-inline: auto;
+    margin-block: 10rem;
+  }
+  input {
+    width: 70%;
+    height: 4rem;
+    padding-left: 2rem;
+  }
+  button {
+    width: 10rem;
+    height: 4rem;
+  }
 }
+
 /* media query desktop */
 @media screen and (min-width: 1200px) {
 }
