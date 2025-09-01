@@ -266,6 +266,9 @@ footer a {
   h1 {
     font-size: 5.6rem;
   }
+  table {
+    width: 75%;
+  }
   .videoLetter {
     display: flex;
     height: 25rem;
@@ -279,5 +282,16 @@ footer a {
   aside div {
     width: 33%;
     display: inline-block;
+  }
+}
+@media print {
+  background-image,
+  header,
+  footer,
+  aside,
+  iframe,
+  section,
+  background-color {
+    display: none;
   }
 }
