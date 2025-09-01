@@ -220,6 +220,12 @@ footer a {
 
 /* media query medium from 768px */
 @media screen and (min-width: 768px) {
+  main {
+    font-size: 2.1rem;
+  }
+  h1 {
+    font-size: 6.6rem;
+  }
   table {
     margin-inline: auto;
     margin-block: 10rem;
@@ -235,7 +241,7 @@ footer a {
   }
 }
 
-/* media query desktop */
+/* media query desktop from 1200px  */
 @media screen and (min-width: 1200px) {
   header {
     display: flex;
@@ -256,6 +262,9 @@ footer a {
   }
   header div p {
     margin-block: auto;
+  }
+  h1 {
+    font-size: 5.6rem;
   }
   .videoLetter {
     display: flex;
