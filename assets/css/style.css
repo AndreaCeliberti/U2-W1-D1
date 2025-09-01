@@ -77,6 +77,9 @@ h1 {
   letter-spacing: -0.03em;
   margin-bottom: 0.7em;
 }
+.logoCss {
+  display: none;
+}
 p,
 address,
 ul,
@@ -191,8 +194,30 @@ footer a {
   color: fuchsia;
 }
 /* media query mobile */
-@media screen and (max-width: 575px) {
+@media screen and (min-width: 575px) {
+  header {
+    font-size: 1.6em;
+  }
+  header ul {
+    display: ruby;
+  }
+  h1 {
+    line-height: 1;
+    font-size: 4.6rem;
+  }
+  .logoCss {
+    display: block;
+    border: 4px solid #00a0c6;
+    outline: 4px solid #a12572;
+  }
+  main {
+    font-size: 1.3em;
+  }
+  footer {
+    font-size: 2.2rem;
+  }
 }
+
 /* media query medium */
 @media screen and (min-width: 768px) {
 }
