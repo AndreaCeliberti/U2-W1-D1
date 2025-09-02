@@ -284,6 +284,9 @@ footer a {
     display: inline-block;
   }
 }
+
+/* media query print page*/
+
 @media print {
   background-image,
   header,
